@@ -1,18 +1,18 @@
 let intento = 1
 let ciclo = 1
-const maximoIntentos = 
+const maximoIntentos = 5
 
-if(maximoIntentos < 1)  {
-  console.log("El número máximo de interntos debe ser al menos 1")
+if (maximoIntentos < 1) {
+  console.log("El número máximo de intentos debe ser al menos 1")
+} else {
+  console.log("Práctica inicial con while")
+  console.log("Vamos a repetir un proceso mientras el intento sea menor o igual al máximo.")
+
+  while (intento <= maximoIntentos) {
+    console.log("Intento de revisión número:", intento, "Ciclo número:", ciclo)
+    intento = intento + 1
+    ciclo = ciclo + 1
+  }
+
+  console.log("Proceso de revisión finalizado.")
 }
-
-console.log("Práctica inicial con while")
-console.log("Vamos a repetir un proceso mientras el intento sea menor o igual al máximo.")
-
-while (intento <= maximoIntentos) {
-  console.log("Intento de revisión número:", intento, "Ciclo número:" , ciclo)
-  intento = intento + 1
-  ciclo = ciclo + 1
-}
-
-console.log("Proceso de revisión finalizado.")
